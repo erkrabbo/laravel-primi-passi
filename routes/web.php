@@ -18,5 +18,5 @@ Route::get('/', function () {
 })->name('home');
 
 Route::get('/second', function () {
-    return view('pag2', ['msg' => 'Ciao mondo! da pagina 2']);
+    return view('home', ['msg' => 'Ciao mondo! da pagina 2']);
 })->name('pag2');
