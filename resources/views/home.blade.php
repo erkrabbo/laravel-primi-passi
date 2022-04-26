@@ -14,7 +14,7 @@
         </h1>
     </header>
     <main>
-        <h2>Hello world!</h2>
+        <h2>{{ $msg }}</h2>
     </main>
 </body>
 </html>
