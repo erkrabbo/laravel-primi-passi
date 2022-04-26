@@ -14,9 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home', ['msg' => 'Ciao mondo!']);
+    return view('home', ['msg' => 'Ciao mondo!', 'page_number' => 1]);
 })->name('home');
 
 Route::get('/second', function () {
-    return view('home', ['msg' => 'Ciao mondo! da pagina 2']);
+    return view('home', ['msg' => 'Ciao mondo! da pagina 2', 'page_number' => 2]);
 })->name('pag2');
